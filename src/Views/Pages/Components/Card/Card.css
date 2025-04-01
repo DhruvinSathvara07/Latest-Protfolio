@@ -1,0 +1,114 @@
+.myWorkmain {
+    height: auto;
+}
+
+.custom-card {
+    background: #1a1a1a;
+    border-radius: 15px;
+    height: auto;
+    width: 100%;
+    transform: translateY(0);
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+.workImage {
+    height: 75% !important;
+}
+
+.workImgBody {
+    height: 25% !important;
+}
+
+.workImage img {
+    height: auto;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.custom-card::before {
+    content: '';
+    position: absolute;
+    top: -80%;
+    left: -20%;
+    width: 20%;
+    height: 150%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 100%);
+    transform: rotate(35deg);
+    pointer-events: none;
+    opacity: 0;
+    z-index: 999;
+    transition: opacity 0.5s ease-out;
+}
+
+.custom-card:hover::before {
+    opacity: 1;
+    animation: shine 1s forwards;
+}
+
+@keyframes shine {
+    0% {
+        top: -80%;
+        left: -20%;
+    }
+
+    100% {
+        top: 24%;
+        left: 100%;
+    }
+}
+
+
+/* .custom-card:hover {
+    transform: translateY(-10px);
+} */
+
+.image-overlay {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 255, 200, 0.1) 100%);
+}
+
+.project-link {
+    color: #00ff88;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.project-link::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #00ff88;
+    transition: width 0.3s ease;
+}
+
+.project-link:hover::after {
+    width: 100%;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.neon-text {
+    text-shadow: 0 0 10px #00ff88;
+}
+
+.img-fluid {
+    border-radius: 15px 15px 0 0;
+}
