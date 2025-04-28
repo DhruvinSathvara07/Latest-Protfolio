@@ -9,7 +9,7 @@ const Section3 = () => {
     const images = [
         { id: 13, img: "GIT.gif" },
         { id: 12, img: "figma-logo-animation-unscreen.gif" },
-        { id: 11, img: "download.png" },
+        // { id: 11, img: "download.png" },
         { id: 7, img: "firebase.gif" },
         { id: 6, img: "redux.svg" },
         { id: 5, img: "REACT.gif" },
@@ -22,7 +22,7 @@ const Section3 = () => {
     const items = [
         'GIT.gif',
         'figma-logo-animation-unscreen.gif',
-        'download.png',
+        // 'download.png',
         'firebase.gif',
         'redux.svg',
         'REACT.gif',
