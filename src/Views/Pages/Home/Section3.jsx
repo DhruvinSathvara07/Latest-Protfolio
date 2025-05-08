@@ -102,11 +102,11 @@ const Section3 = () => {
                         </div>
 
                         {/* Mobile alternative view (optional) */}
-                        <div className="d-lg-none mt-4">
+                        {/* <div className="d-lg-none mt-4">
                             <p className="text-muted small">
                                 Tip: Use two fingers to pinch and zoom for better interaction on mobile
                             </p>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
