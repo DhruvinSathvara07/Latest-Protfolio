@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Section5 = () => {
+const Contact = () => {
 
     return (
         <>
@@ -71,4 +71,4 @@ const Section5 = () => {
     )
 }
 
-export default Section5
+export default Contact

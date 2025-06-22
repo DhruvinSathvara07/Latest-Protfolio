@@ -3,7 +3,8 @@ import React from 'react'
 const Section4 = () => {
     return (
         <>
-            <div className="container" data-aos="fade-up">
+            this is future section
+            {/* <div className="container" data-aos="fade-up">
                 <span className='h2'></span>
                 <h2 style={{ fontFamily: "Playwrite AU SA, serif", borderBottom: "2px solid #94E214", display: 'inline-block' }} className='mt-0 mt-lg-5 ' data-aos="fade-down">
                     <span className='about'>My </span>
@@ -26,7 +27,6 @@ const Section4 = () => {
                                                     As an experienced Frontend Stack Developer Intern at Red and White Multimedia
                                                     contributing to the development of Full-Stack web application using React.js ,
                                                 </p>
-                                                {/* <p> 🔹 Key Areas of Expertise:</p> */}
                                                 <p>
                                                     Designed and implemented responsive UI components, integrated APIs for
                                                     seamless data communication, and optimized performance using React Hooks
@@ -65,7 +65,7 @@ const Section4 = () => {
                         <div class="circle"></div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }
