@@ -39,11 +39,11 @@ const Header = () => {
                                 </a>
                             </li>
 
-                            <li class="nav-item  ms-0 ms-lg-5 ms-md-2   ">
+                            {/* <li class="nav-item  ms-0 ms-lg-5 ms-md-2   ">
                                 <a style={{ borderBottom: "2px solid #94E214", }} data-aos="fade-down" class="nav-link text-light text-uppercase   fs-bolder fs-6   " aria-current="page" href="#" >
                                     Experience
                                 </a>
-                            </li>
+                            </li> */}
 
                             <li class="nav-item  ms-0 ms-lg-5 ms-md-2   ">
                                 <a style={{ borderBottom: "2px solid #94E214", }} data-aos="fade-down" class="nav-link text-light text-uppercase   fs-bolder fs-6    " aria-current="page" href="#">Cont<span style={{ color: "#94E214" }}>Λ</span>cts</a>
