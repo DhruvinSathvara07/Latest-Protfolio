@@ -13,16 +13,16 @@ const Section1 = () => {
 
 
         typewriter
-            .typeString("H E L L O <br> :) ") // Type out the text
-            .pauseFor(1000) // Pause after typing
-            .deleteAll()    // Clear the text
-            .typeString("WELCOME TO MY PORTFOLIO...") // Type out the text
+            .typeString("H E L L O <br> :) ") 
+            .pauseFor(1000) 
+            .deleteAll()    
+            .typeString("WELCOME TO MY PORTFOLIO...") 
             .pauseFor(1000)
             .deleteAll()
-            .typeString("MY NAME IS DHRUVIN SATHVARA") // Type out the text
+            .typeString("MY NAME IS DHRUVIN SATHVARA") 
             .pauseFor(1000)
             .deleteAll()
-            .typeString("I'm a FRONTEND DEVELOPER...") // Type out the text
+            .typeString("I'm a FULLSTACK DEVELOPER...") 
             .pauseFor(1000)
             .deleteAll()
             .start(); // Start the typewriter animation
