@@ -5,6 +5,7 @@ import Section3 from './Section3'
 import Contact from './Contact'
 import MyWork from './MyWork'
 import Marquee from '../Components/Marquee'
+import Experience from "./Experience"
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
             <Section1 />
             <Section2 />
             <Section3 />
+            <Experience />
             <MyWork />
             <Contact />
         </>

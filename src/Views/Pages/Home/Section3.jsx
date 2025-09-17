@@ -7,6 +7,10 @@ const Section3 = () => {
 
     // Images for the Stack component
     const images = [
+        { id: 17, img: "api.gif" },
+        { id: 16, img: "MongoDb.gif" },
+        { id: 15, img: "expressjs.png" },
+        { id: 14, img: "NodeJs.gif" },
         { id: 13, img: "GIT.gif" },
         { id: 12, img: "figma-logo-animation-unscreen.gif" },
         { id: 7, img: "firebase.gif" },
@@ -20,6 +24,10 @@ const Section3 = () => {
 
     // Items for the FlyingPosters component (if needed)
     const items = [
+        'api.gif',
+        'MongoDb.gif',
+        'expressjs.png',
+        'NodeJs.gif',
         'GIT.gif',
         'figma-logo-animation-unscreen.gif',
         'firebase.gif',

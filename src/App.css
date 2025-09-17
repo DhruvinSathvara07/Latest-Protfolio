@@ -233,7 +233,6 @@
  } */
 
  /* Work project */
-
  .similarFont {
      font-size: 30px;
      transition: all 0.5s;
@@ -266,8 +265,14 @@
      -webkit-text-fill-color: transparent;
  }
 
- .fa-whatsapp {
-     background: linear-gradient(45deg, #25D366, #25D366, #25D366, #25D366, #25D366, #25D366);
+ .fa-medium {
+     background: linear-gradient(45deg, #000000, #222222, #333333, #000000, #111111, #000000);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+
+ .fa-x-twitter {
+     background: linear-gradient(45deg, #1DA1F2, #1DA1F2, #1DA1F2, #1DA1F2, #1DA1F2, #1DA1F2);
      -webkit-background-clip: text;
      -webkit-text-fill-color: transparent;
  }

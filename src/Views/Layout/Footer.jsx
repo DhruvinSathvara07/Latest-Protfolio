@@ -14,24 +14,37 @@ const Footer = () => {
                         data-aos-anchor-placement="top-center">
                         <span className='i'
                             data-aos-anchor-placement="top-center"></span>
-                        <a href='https://github.com/DhruvinSathvara07' target='_blank' class="fa-brands similarFont fs-1 fa-github"></a>
+                        <a href='https://github.com/DhruvinSathvara07' target='_blank' className="fa-brands similarFont fs-1 fa-github"></a>
                         <span className='dashi'></span>
                     </div>
                     <div className="col"
                         data-aos-anchor-placement="top-center">
                         <span className='i'></span>
-                        <a href='https://www.linkedin.com/in/dhruvin-sathvara-901501305/' target='_blank' class="fa-brands similarFont fs-1 fa-linkedin"></a>
+                        <a href='https://www.linkedin.com/in/dhruvin-sathvara-901501305/' target='_blank' className="fa-brands similarFont fs-1 fa-linkedin"></a>
                         <span className='dashi'></span>
                     </div>
                     <div className="col"
                         data-aos-anchor-placement="top-center">
                         <span className='i'></span>
-                        <a href='https://www.instagram.com/dhruvin_sathvara/' target='_blank' class="fa-brands similarFont fs-1 fa-instagram"></a>
+                        <a href='https://www.instagram.com/dhruvin_sathvara/' target='_blank' className="fa-brands similarFont fs-1 fa-instagram"></a>
+                        <span className='dashi'></span>
+                    </div>
+
+                    {/* <div className="col" data-aos-anchor-placement="top-center">
+                        <span className='i'></span>
+                        <a href='https://medium.com/@yourusername' target='_blank'
+                            className="fab similarFont fs-1 fa-medium   "></a>
+                        <span className='dashi'></span>
+                    </div> */}
+                    <div className="col" data-aos-anchor-placement="top-center">
+                        <span className='i'></span>
+                        <a href='https://x.com/Dhruvinsat55667' target='_blank'
+                            className="fa-brands similarFont fs-1 fa-x-twitter"></a>
                         <span className='dashi'></span>
                     </div>
 
                 </div>
-                <span className='dashbody'  ></span><br /><br />
+                <span className='dashbody'></span><br /><br />
                 <span className='dashhtml'></span>
             </div>
         </>

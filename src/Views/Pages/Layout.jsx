@@ -5,15 +5,13 @@ import Marquee from './Components/Marquee';
 
 const Layout = ({ children }) => {
     return (
-        <div>
+        <>
             <Header />
             <main>
                 {children}
             </main>
             <Footer />
-
-
-        </div>
+        </>
     );
 }
 

@@ -28,9 +28,18 @@ const MyWork = () => {
             <section>
                 <h2 className='text-center mb-4' data-aos="fade-up">React Projects</h2>
                 <div className="row gx-2 gy-4" data-aos="fade-up">
-                    <Card img={"React-1.png"} link="https://onyxconsultancyservices.co/" />
+                    <Card img={"React-1.png"} link="https://www.digi-sky.in/" />
                     <Card img={"React-2.png"} link="https://github.com/Akxay28/PGMTeam" />
                     <Card img={"React-3.png"} link="https://github.com/DhruvinSathvara07/React-Admin-Pannel-Website" />
+                </div>
+            </section>
+
+            <section>
+                <h2 className='text-center mb-4' data-aos="fade-up">Freelancing Projects</h2>
+                <div className="row gx-2 gy-4" data-aos="fade-up">
+                    <Card img={"Freelancing1.png"} link="http://onyxconsultancyservices.co/" />
+                    {/* <Card img={"React-1.png"} link="https://www.digi-sky.in/" /> */}
+                    {/* <Card img={"React-2.png"} link="https://github.com/Akxay28/PGMTeam" /> */}
                 </div>
             </section>
         </div>
